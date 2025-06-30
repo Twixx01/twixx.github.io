@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARB Porfolio</title>
+
+  <!-- ✅ Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- ✅ Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- ✅ Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+</head>
+<body>
+
+<div id="header">
+  <div class="container">
+<nav>
+  <div class="nav-left">
+  <a href="#">
+    <img src="logo.png" class="logo" alt="Logo" />
+  </a>
+  </div>
+
+  <div class="nav-center">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </div>
+
+<div class="nav-right">
+  <div class="star-border-container">
+    <div class="border-gradient-top"></div>
+    <div class="border-gradient-bottom"></div>
+    <a href="#contact" class="get-in-touch">Get in Touch</a>
+  </div>
+</div>
+
+
+
+
+
+</nav>
+<div id="profile">
+  <div id="particle-js">
+  <div class="profile-container">
+<section id="home">
+  <div id="homeImage" class="home-img animate__animated">
+    <img src="home1.png" alt="Profile Image">
+  </div>
+</section>
+
+
+    <div class="section_text animate__animated">
+      <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title animate__animated animate__pulse">Abbiel Batoy</h1>
+      <p class="section_text_p2">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </p>
+
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('CV_FILE.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/abbiel-batoy-1b3783370/" target="_blank">
+          <i class="fab fa-linkedin icon"></i>
+        </a>
+        <a href="https://www.facebook.com/Abblbty/" target="_blank">
+          <i class="fab fa-facebook icon"></i>
+        </a>
+        <a href="https://x.com/notsoabiii" target="_blank">
+          <i class="fab fa-twitter icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!---------------About------------------>
+<div id="about">
+ <div class="container">
+    <div class="row">
+<div class="glow-wrapper animate__animated" id="aboutImageWrapper">
+  <div class="about-col-1 tilt-box" data-tilt data-tilt-max="13" data-tilt-scale="1.1">
+    <img src="about.png" class="tilt-img" alt="About Me Image">
+  </div>
+</div>
+
+
+<div class="about-col-2 observe-slide">
+  <p class="section_text_p3">Get To Know More</p>
+  <div class="about-title-wrapper">
+    <h1 id="about-title" class="section-title animated-blur-text">
+      <span class="word">About</span>
+      <span class="word">Me</span>
+    </h1>
+  </div>
+
+<p class="about-description">
+  I’m a Computer Science graduate from Ateneo de Zamboanga University with a passion for creating from web development and design to digital content and freelance projects. I enjoy building things that are useful, visually engaging, and thoughtfully crafted.
+</p>
+
+<p class="about-description">
+  My work blends creativity with technology, allowing me to bring ideas to life across different platforms. I’m always exploring new ways to grow whether it's designing interfaces, developing solutions, or collaborating on creative projects.
+</p>
+
+<p class="about-description">
+  I value clean design, smart functionality, and meaningful impact. No matter the medium, I aim to create work that connects, communicates, and leaves a strong impression.
+</p>
+
+
+  <!-- Tab Titles -->
+  <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab(event, 'education')">Education</p>
+    <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+    <p class="tab-links" onclick="opentab(event, 'skills')">Skillset & Tools</p>
+  </div>
+
+  <!-- Tab Content -->
+  <div class="tab-container">
+    <!-- Education Tab -->
+    <div class="tab-contents active-tab animate__animated animate__fadeInUp" id="education">
+      <ul>
+        <li>
+          <span>2020–2025</span><br>
+          <img src="adzulogo.png" alt="ADZU Logo" class="school-logo1">
+          Ateneo de Zamboanga University<br>
+          <small>Bachelor of Science in Computer Science</small><br>
+          <small>Higher Education – College</small>
+        </li>
+        <li>
+          <span>2019–2020</span><br>
+          <img src="claretlogo.png" alt="Claret Logo" class="school-logo">
+          Claret School of Zamboanga City<br>
+          <small>Senior High School</small>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Experience Tab -->
+    <div class="tab-contents animate__animated animate__fadeInUp" id="experience">
+      <div class="experience-card">
+        <h3 class="position">Intern</h3>
+        <p class="company">Department of Trade and Industry – Zamboanga City</p>
+        <p class="duration">June 2023 – August 2023</p>
+        <ul class="responsibilities">
+          <li>Assisted in administrative and technical tasks supporting local trade initiatives and business development programs.</li>
+          <li>Handled office tasks such as data encoding, research, and documentation to support daily operations.</li>
+          <li>Gained practical experience in government processes, economic development, and policy implementation.</li>
+          <li>Strengthened skills in communication, teamwork, and time management while working in a fast-paced office setting.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills Tab -->
+    <div class="tab-contents animate__animated animate__fadeInUp" id="skills">
+      <div class="skills-grid">
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://cdn.simpleicons.org/html5/ff5722" class="icon" title="HTML5"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://cdn.simpleicons.org/css/2965f1" class="icon" title="CSS3"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://cdn.simpleicons.org/javascript/f7df1e" class="icon" title="JavaScript"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" class="icon" title="VS Code"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="figma.png" class="icon" title="Figma"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://cdn.simpleicons.org/canva/00C4CC" class="icon" title="Canva"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" class="icon" title="Photoshop"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" class="icon" title="Adobe Premiere Pro"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="davinci.png" class="icon" title="DaVinci Resolve"></div>
+        <div class="icon-box animate__animated animate__zoomIn"><img src="capcut.png" class="icon" title="CapCut"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+<!-- ---------------------Services Section ------------------------>
+<!-- Services Section -->
+<section id="services" class="services-section">
+
+  <!-- Section Heading -->
+  <h2 id="services-title" class="section-title animated-blur-text">
+    <span class="word">My</span>
+    <span class="word">Services</span>
+  </h2>
+
+  <!-- Carousel Container -->
+  <div class="carousel-container">
+    <button class="nav left">&#8592;</button>
+
+    <div class="carousel animate__animated">
+      <div class="card">
+        <img src="services1.png" alt="UI/UX Design">
+        <div class="card-blur"></div>
+        <div class="card-text"></div>
+      </div>
+
+      <div class="card">
+        <img src="services2.jpg" alt="Video Editing">
+        <div class="card-blur"></div>
+        <div class="card-text"></div>
+      </div>
+
+      <div class="card">
+        <img src="services3.png" alt="Front-End Dev">
+        <div class="card-blur"></div>
+        <div class="card-text"></div>
+      </div>
+    </div>
+
+    <button class="nav right">&#8594;</button>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------Projects------------------>
+<section id="projects" class="projects-section">
+  <div class="container">
+    <h2 id="projects-title" class="section-title animated-blur-text">
+      <span class="word">My</span>
+      <span class="word">Projects</span>
+    </h2>
+
+    <div class="projects-timeline">
+
+      <!-- LEFT COLUMN -->
+<div class="timeline-side timeline-left">
+  <div class="timeline-item animate-in left">
+      <span class="project-year">2025</span>
+    <h3>MotoPredictorPH</h3>
+    <div class="work">
+      <img src="PREDICTOR.gif" alt="Project Demo" class="project-gif" />
+      <div class="layer">
+        <h3>Predictive Modeling of Used Motorcycle Prices Using Random Forest</h3>
+        <p>This app predicts used motorcycle prices using a Random Forest model to help users make smart pricing decisions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item animate-in">
+    <h3>Game Content Editing</h3>
+     <span class="project-year">2025</span>
+    <div class="work">
+      <img src="gaming.gif" alt="Project Demo" class="project-gif" />
+      <div class="layer">
+        <h3>Edited Gaming Montages</h3>
+        <p>Edited dynamic gaming clips with smooth transitions and effects using DaVinci Resolve and After Effects.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item animate-in">
+    <h3>UI/UX Redesign</h3>
+    <p>Figma</p>
+    <p>Redesigned a mobile app interface for better usability and accessibility.</p>
+  </div>
+</div>
+ <!-- End Left Column -->
+
+      <!-- MIDDLE TIMELINE LINE -->
+      <div class="timeline-line">
+        <div class="scroll-dot" id="scrollDot"></div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+<div class="timeline-side timeline-right">
+  <div class="timeline-item animate-in right">
+    <h3>SchedG Portal</h3>
+    <span class="project-year">2022</span>
+    <div class="work">
+      <img src="SchedG.gif" alt="Project Demo" class="project-gif" />
+      <div class="layer">
+        <h3>SchedG Portal</h3>
+        <p>A Figma-designed portal for nursing students to organize and track their schedules with ease.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item animate-in">
+    <h3>The Lost Samurai - 2D Game</h3>
+    <span class="project-year">2022</span>
+    <div class="work">
+      <img src="samurai.gif" alt="Project Demo" class="project-gif" />
+      <div class="layer">
+        <h3>Samurai Adventure Game</h3>
+        <p>A 2D mobile action game featuring samurai combat, developed in Unity with side-scrolling gameplay and stylized visuals.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item animate-in">
+    <h3>Video Promo Edits</h3>
+    <p>DaVinci Resolve</p>
+    <p>Edited short promotional videos for small businesses and local events.</p>
+  </div>
+</div>
+ <!-- End Right Column -->
+
+    </div> <!-- End Projects Timeline -->
+  </div>
+</section>
+
+
+
+<!-- ---------------------CONTACT Section ------------------------>
+
+<section id="contact" class="contact-section">
+  <div class="contact-wrapper">
+
+    <!-- LEFT COLUMN -->
+    <div class="contact-col-2 animate__animated">
+      <p class="section_text_p3">Get In Touch</p>
+
+<h1 class="sub-title contact-heading animated-blur-text">
+  <span class="word">Contact</span>
+  <span class="word">Me</span>
+</h1>
+
+      <!-- Contact Info -->
+      <div class="contact-icon-group">
+        <div class="contact-icon-row">
+          <div class="contact-icon-circle"><i class="fas fa-phone"></i></div>
+          <div class="contact-info">
+            <div class="label">Phone</div>
+            <div class="value">+63 9062 575 716</div>
+          </div>
+        </div>
+        <div class="contact-icon-row">
+          <div class="contact-icon-circle"><i class="fas fa-paper-plane"></i></div>
+          <div class="contact-info">
+            <div class="label">Email</div>
+            <div class="value">batoyabbiel@gmail.com</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="contact-socials">
+        <a href="https://www.linkedin.com/in/abbiel-batoy-1b3783370/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin icon"></i>
+        </a>
+        <a href="https://www.facebook.com/Abblbty/" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook icon"></i>
+        </a>
+        <a href="https://x.com/notsoabiii 
+        +
+        +
+        +
+        +
+        +
+        " target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter icon"></i>
+        </a>
+        <a href="https://www.instagram.com/abiiyuhh/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram icon"></i>
+        </a>
+      </div>
+
+      <!-- Download CV Button -->
+      <div class="bttn-container">
+        <button class="btn btn-color-2" onclick="window.open('CV_FILE.pdf')">
+          Download CV
+        </button>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN (FORM) -->
+    <div class="contact-box animate__animated">
+      <h2>Send Message</h2>
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+  <input type="hidden" name="access_key" value="bbf96110-ef30-48d3-a0bd-c9e78387d48b" />
+  <input type="hidden" name="subject" value="New Message via Portfolio Form">
+  <input type="checkbox" name="botcheck" style="display:none;" />
+
+  <div class="form-floating">
+    <input type="text" name="name" id="name" placeholder=" " required>
+    <label for="name">Full Name</label>
+  </div>
+
+  <div class="form-floating">
+    <input type="email" name="email" id="email" placeholder=" " required>
+    <label for="email">Email</label>
+  </div>
+
+  <div class="form-floating">
+    <textarea name="message" id="message" rows="4" placeholder=" " required></textarea>
+    <label for="message">Type your Message...</label>
+  </div>
+
+  <button type="submit" class="submit-btn">Send</button>
+</form>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const imageWrapper = document.getElementById('aboutImageWrapper');
+
+    if (!imageWrapper) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        imageWrapper.classList.remove('animate__zoomIn', 'animate__zoomOut');
+
+        if (entry.isIntersecting) {
+          imageWrapper.classList.add('animate__zoomIn');
+        } else {
+          imageWrapper.classList.add('animate__zoomOut');
+        }
+      });
+    }, {
+      threshold: 0.4
+    });
+
+    observer.observe(imageWrapper);
+  });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const el = entry.target;
+
+      if (entry.isIntersecting) {
+        el.classList.remove('animate__slideOutLeft');
+        el.classList.add('animate__animated', 'animate__slideInLeft');
+      } else {
+        el.classList.remove('animate__slideInLeft');
+        el.classList.add('animate__animated', 'animate__slideOutLeft');
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  const elements = document.querySelectorAll('.observe-slide');
+  elements.forEach(el => observer.observe(el));
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------JS SCRIPT ------------------------>
+<script>
+  function opentab(evt, tabName) {
+    const tabLinks = document.querySelectorAll(".tab-links");
+    const tabContents = document.querySelectorAll(".tab-contents");
+
+    // Remove active classes from all tabs and hide content
+    tabLinks.forEach((link) => link.classList.remove("active-link"));
+    tabContents.forEach((content) => {
+      content.classList.remove("active-tab", "animate__animated", "animate__fadeIn");
+      content.style.display = "none";
+    });
+
+    // Add active classes to selected tab and content
+    evt.currentTarget.classList.add("active-link");
+    const activeContent = document.getElementById(tabName);
+    activeContent.style.display = "block";
+    activeContent.classList.add("active-tab", "animate__animated", "animate__fadeIn");
+  }
+
+  // Optional: Auto-open the first tab on page load
+  document.addEventListener("DOMContentLoaded", () => {
+    const firstTab = document.querySelector(".tab-links.active-link");
+    if (firstTab) firstTab.click();
+  });
+</script>
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const blurTexts = document.querySelectorAll('.animated-blur-text');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const wordSpans = entry.target.querySelectorAll('.word');
+
+        if (entry.isIntersecting) {
+          // Reset state first
+          wordSpans.forEach((word, i) => {
+            word.style.transitionDelay = `${0.1 + i * 0.2}s`;
+            word.style.opacity = "1";
+            word.style.transform = "translateY(0)";
+            word.style.filter = "blur(0)";
+          });
+        } else {
+          // Fully reset the animation state so it can replay
+          wordSpans.forEach(word => {
+            word.style.transitionDelay = "0s";
+            word.style.opacity = "0";
+            word.style.transform = "translateY(-20px)";
+            word.style.filter = "blur(8px)";
+          });
+        }
+      });
+    }, {
+      threshold: 0.4
+    });
+
+    blurTexts.forEach(el => observer.observe(el));
+  });
+</script>
+
+
+<script>
+  const cards = document.querySelectorAll('.card');
+  const leftBtn = document.querySelector('.nav.left');
+  const rightBtn = document.querySelector('.nav.right');
+
+  const descriptions = [
+    {
+      title: 'UI/UX Design',
+      desc: 'Designing clean, user-friendly interfaces with Figma and modern UX principles.'
+    },
+    {
+      title: 'Creative Video Editing',
+      desc: 'Professional video editing that delivers clean cuts, smooth flow, and creative visuals for any type of content'
+    },
+    {
+      title: 'Front-End Development',
+      desc: 'Responsive and modern websites using HTML, CSS, JS, and frameworks.'
+    }
+  ];
+
+  let currentIndex = 1;
+
+  function updateCards() {
+    cards.forEach((card, index) => {
+      card.classList.remove('active', 'left', 'right');
+      const cardText = card.querySelector('.card-text');
+      cardText.innerHTML = ''; // Clear text content
+
+      if (index === currentIndex) {
+        card.classList.add('active');
+
+// Title with animate__zoomIn
+const h3 = document.createElement('h3');
+h3.textContent = descriptions[index].title;
+h3.classList.add('animate__animated', 'animate__zoomIn');
+h3.style.setProperty('--animate-duration', '0.6s');
+
+// Force reflow to restart animation
+void h3.offsetWidth;
+
+// Description with fade-in
+const p = document.createElement('p');
+p.textContent = descriptions[index].desc;
+p.classList.add('animate__animated', 'animate__fadeInUp');
+p.style.setProperty('--animate-duration', '0.6s');
+
+void p.offsetWidth;
+
+cardText.appendChild(h3);
+cardText.appendChild(p);
+
+
+        // Append both
+        cardText.appendChild(h3);
+        cardText.appendChild(p);
+      } else if (index === (currentIndex - 1 + cards.length) % cards.length) {
+        card.classList.add('left');
+      } else if (index === (currentIndex + 1) % cards.length) {
+        card.classList.add('right');
+      }
+    });
+  }
+
+  leftBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+    updateCards();
+  });
+
+  rightBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % cards.length;
+    updateCards();
+  });
+
+  cards.forEach((card, index) => {
+    card.addEventListener('click', () => {
+      if (index !== currentIndex) {
+        currentIndex = index;
+        updateCards();
+      }
+    });
+  });
+
+  updateCards();
+</script>
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.querySelector('.carousel');
+
+    if (!carousel) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          carousel.classList.remove('animate__zoomOut');
+          carousel.classList.add('animate__zoomIn');
+        } else {
+          carousel.classList.remove('animate__zoomIn');
+          carousel.classList.add('animate__zoomOut');
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(carousel);
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------CONTACT SCRIPT ------------------------>
+
+
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const contactLeft = document.querySelector('.contact-col-2');
+    const contactSection = document.querySelector('#contact');
+
+    if (!contactLeft || !contactSection) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          contactLeft.classList.remove('animate__fadeInLeft', 'animate__fadeOutLeft');
+
+          if (entry.isIntersecting) {
+            contactLeft.classList.add('animate__fadeInLeft');
+          } else {
+            contactLeft.classList.add('animate__fadeOutLeft');
+          }
+        });
+      },
+      {
+        threshold: 0.4
+      }
+    );
+
+    observer.observe(contactSection);
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const contactBox = document.querySelector('.contact-box');
+    const contactSection = document.querySelector('#contact');
+
+    if (!contactBox || !contactSection) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          // Always clear old animations
+          contactBox.classList.remove('animate__fadeInUp', 'animate__fadeOutRight');
+
+          if (entry.isIntersecting) {
+            contactBox.classList.add('animate__fadeInUp');
+          } else {
+            contactBox.classList.add('animate__fadeOutRight');
+          }
+        });
+      },
+      {
+        threshold: 0.4
+      }
+    );
+
+    observer.observe(contactSection);
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const el = entry.target;
+
+      // Avoid adding the class repeatedly
+      if (entry.isIntersecting) {
+        el.classList.remove('animate__slideOutLeft');
+        el.classList.add('animate__animated', 'animate__slideInLeft');
+      } else {
+        el.classList.remove('animate__slideInLeft');
+        el.classList.add('animate__animated', 'animate__slideOutLeft');
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  const elements = document.querySelectorAll('.observe-slide');
+  elements.forEach(el => {
+    if (el) observer.observe(el);
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const homeImage = document.getElementById('homeImage');
+    const homeSection = document.querySelector('#home');
+
+    if (!homeImage || !homeSection) return; // Safety check
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          homeImage.classList.remove('animate__fadeInLeft', 'animate__fadeOutLeft');
+
+          if (entry.isIntersecting) {
+            homeImage.classList.add('animate__fadeInLeft');
+          } else {
+            homeImage.classList.add('animate__fadeOutLeft');
+          }
+        });
+      },
+      {
+        threshold: 0.4
+      }
+    );
+
+    observer.observe(homeSection);
+  });
+</script>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sectionText = document.querySelector('.section_text');
+
+    if (!sectionText) return; // prevent errors if element not found
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            sectionText.classList.remove('animate__lightSpeedOutRight');
+            sectionText.classList.add('animate__lightSpeedInRight');
+          } else {
+            sectionText.classList.remove('animate__lightSpeedInRight');
+            sectionText.classList.add('animate__lightSpeedOutRight');
+          }
+        });
+      },
+      {
+        threshold: 0.3, // 30% visible to trigger
+      }
+    );
+
+    observer.observe(sectionText);
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Intersection Observer for Projects Section Title -->
+
+
+
+
+<!-- Scroll Dot Movement -->
+<script>
+  window.addEventListener("scroll", () => {
+    const dot = document.getElementById("scrollDot");
+    const line = document.querySelector(".timeline-line");
+
+    if (!dot || !line) return;
+
+    const rect = line.getBoundingClientRect();
+    const maxHeight = line.offsetHeight;
+    const scrollPos = Math.min(
+      Math.max(0, window.innerHeight / 2 - rect.top),
+      maxHeight
+    );
+
+    dot.style.top = scrollPos + "px";
+  });
+</script>
+
+<!-- ANIMATION IN AND out -->
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible');
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  document.querySelectorAll('.animate-in').forEach(el => observer.observe(el));
+</script>
+
+
+
+
+
+
+
+
+
+<!-- Tab Switching (Skills, Education) -->
+
+
+<!-- Glitch Effect on Scroll for .sub-title -->
+<script>
+  const glitchObserver = new IntersectionObserver(
+    function(entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('glitch-on-scroll');
+        } else {
+          entry.target.classList.remove('glitch-on-scroll');
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  const subtitle = document.querySelector('.sub-title');
+  if (subtitle) glitchObserver.observe(subtitle);
+</script>
+
+<!-- Home Particles -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script>
+  tsParticles.load("particles-js", {
+    fullScreen: { enable: false },
+    particles: {
+      number: {
+        value: 120,
+        density: { enable: true, area: 800 }
+      },
+      shape: { type: "circle" },
+      size: { value: 1.5 },
+      color: { value: "#ffffff" },
+      opacity: { value: 1 },
+      move: { enable: true, speed: 0.4 },
+      links: { enable: false }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" }
+      }
+    },
+    background: { color: "transparent" }
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Typed("#typed-text", {
+      strings: ["Front-End Developer", "UI/UX Designer", "Freelancer"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      backDelay: 1500,
+      startDelay: 500,
+      loop: true,
+      smartBackspace: true,
+      showCursor: false // because you're using your own | cursor
+    });
+  });
+</script>
+
+<!-- External Scripts -->
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.3/dist/vanilla-tilt.min.js"></script>
+
+
+
+</div>
+
+<footer class="footer">
+<h2 class="footer-name animate__animated animate__fadeInUp">
+  <img src="logo.png" alt="Twixx Mitchiko Logo" style="height: 40px;">
+</h2>
+
+  <p class="footer-tagline animate__animated animate__fadeInUp animate__delay-1s">
+    Crafting experiences through code, design, and edits.
+  </p>
+
+  <div class="footer-socials animate__animated animate__fadeInUp animate__delay-2s">
+    <a href="https://www.instagram.com/abiiyuhh/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://x.com/yourprofile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="mailto:batoyabbiel@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <p class="footer-bottom-text animate__animated animate__fadeInUp animate__delay-3s">
+    &copy; 2025 <span>ARB Portfolio</span>. All rights reserved.
+  </p>
+</footer>
+</body>
+</html>
